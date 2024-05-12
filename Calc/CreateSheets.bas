@@ -19,6 +19,8 @@ Sub Main
   		If Doc.Sheets.hasByName("Sheet1") Then
   		Sheet = Doc.Sheets(0)
 		Sheet.Name = "Hack - 0"
+		sheet.TabColor = RGB(0, 255, 0)
+
 	  	Doc.Sheets.insertNewByName("Hack - 1", 1)	
 	  	Doc.Sheets.insertNewByName("Hack - 2", 2)
 	  	Doc.Sheets.insertNewByName("Hack - 3", 3)
